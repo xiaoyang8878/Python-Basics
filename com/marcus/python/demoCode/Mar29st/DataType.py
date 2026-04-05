@@ -22,7 +22,7 @@ print("------ type(obj) -------")
 num1 = 789
 num2 = 789.789
 num3 = True
-num4 = 3+4j
+num4 = 3 + 4j
 string = 'hello'
 print(type(num1))
 print(type(num2))
@@ -36,17 +36,17 @@ int([x])
     - 将x转换为整数并返回，如果没有给x指定值，则返回0
 """
 print("------- int([x]) -------")
-print(int()) #0
-print(int(3)) #3
-print(int(-3)) #-3
-print(int(0)) #0
-print(int(3.14)) #3
-print(int(3.99)) #3
-print(int(0.0)) #0
-print(int(True)) #1
-print(int(False)) #0
-print(int('12')) #12
-print(int('-12')) #-12
+print(int())  # 0
+print(int(3))  # 3
+print(int(-3))  # -3
+print(int(0))  # 0
+print(int(3.14))  # 3
+print(int(3.99))  # 3
+print(int(0.0))  # 0
+print(int(True))  # 1
+print(int(False))  # 0
+print(int('12'))  # 12
+print(int('-12'))  # -12
 
 """
 float([x])
@@ -54,18 +54,18 @@ float([x])
     - 将x转换为浮点数并返回，如果没有给x指定值，则返回0.0
 """
 print("------- float() -------")
-print(float()) #0.0
-print(float(3)) #3.0
-print(float(-3)) #-3.0
-print(float(0)) #0.0
-print(float(3.99)) #3.99
-print(float(-3.99)) #-3.99
-print(float(0.0)) #0.0
-print(float(True)) #1.0
-print(float(False)) #0.0
-print(float('12')) #12.0
-print(float('-12')) #-12.0
-print(float('12.1')) #12.1
+print(float())  # 0.0
+print(float(3))  # 3.0
+print(float(-3))  # -3.0
+print(float(0))  # 0.0
+print(float(3.99))  # 3.99
+print(float(-3.99))  # -3.99
+print(float(0.0))  # 0.0
+print(float(True))  # 1.0
+print(float(False))  # 0.0
+print(float('12'))  # 12.0
+print(float('-12'))  # -12.0
+print(float('12.1'))  # 12.1
 
 """
 bool([x])
@@ -77,17 +77,17 @@ bool([x])
     - 其它数据通常判定为True
 """
 print("------- bool() -------")
-print(bool()) #Flase
-print(bool(0)) #Flase
-print(bool(0.0)) #Flase
-print(bool(0j)) #Flase
-print(bool(False)) #Flase
-print(bool('')) #Flase
-print(bool([])) #Flase
-print(bool(())) #Flase
-print(bool({})) #Flase
-print(bool(set())) #Flase
-print(bool(None)) #Flase
+print(bool())  # Flase
+print(bool(0))  # Flase
+print(bool(0.0))  # Flase
+print(bool(0j))  # Flase
+print(bool(False))  # Flase
+print(bool(''))  # Flase
+print(bool([]))  # Flase
+print(bool(()))  # Flase
+print(bool({}))  # Flase
+print(bool(set()))  # Flase
+print(bool(None))  # Flase
 print(bool('0'))  # True
 print(bool(' '))  # True
 print(bool('None'))  # True
