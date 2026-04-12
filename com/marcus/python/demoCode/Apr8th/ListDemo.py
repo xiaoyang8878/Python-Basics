@@ -347,3 +347,18 @@ print(lst2)  # [[912, 923]]
 
 del lst2[:]
 print(lst2)  # []
+
+
+
+lst =  [567, 'hello', 456, [912, 923]]
+lst.append(lst)
+
+
+a = "hello"
+b = ["hello", "world"]
+c = 3 + 4j
+tup = (a, b, c)
+print(tup)
+a = 121
+print(tup)
+print(a)
