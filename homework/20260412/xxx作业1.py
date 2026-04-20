@@ -24,7 +24,8 @@ t = "2025/10/28-14:35:48"
 3. 用split 将'28-14:35:48'切割成['28-14', '35', '48']
 '''
 tSplit = t.split('/')
-month = float(tSplit[0])
+
+month = float(tSplit[1])
 min = float(tSplit[2].split(':')[1])
 result = month * min
 print(result)
@@ -81,7 +82,7 @@ lst = [1, 3, 2, 6, 1, 1, 41]
       #  6  5  4  3  2  1  0  reverse
 print(len(lst)-1 - lst[::-1].index(1))
 str = str(lst)
-
+ 
 """
 编写程序实现: 请用户输入用逗号隔开的一串数字, 输出转化成元组后的数据
 
