@@ -100,7 +100,7 @@ def is_narcissistic_number(num):
     return total_num == int(num)
 
 
-test_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 88, 91, 50, 153, 370, 371, 407]
+test_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 88, 91, 50, 153, 370, 371, 407]
 
 for num in test_numbers:
     print(f'{num}: {is_narcissistic_number(num)}')
